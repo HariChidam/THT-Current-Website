@@ -4,9 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from "react-router-dom";
 
 // images
-import rush from '../images/footer/rush.jpg'
 import ig from '../images/footer/IG.svg'
-import { InputGroup } from "react-bootstrap";
 
 
 
@@ -23,7 +21,7 @@ class Footer extends React.Component {
         <div className = "footer-container">
           <div className="container-fluid p-0">
           <div className="hover hover-3 text-white rounded">
-            <img className="img-fluid of" src={this.props.image} />
+            <img className="img-fluid of" src={this.props.image} alt='image'/>
             <div className="hover-overlay"></div>
             
               {(this.props.page === 'homepage') ? (

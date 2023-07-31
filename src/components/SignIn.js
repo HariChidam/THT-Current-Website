@@ -11,7 +11,7 @@ const SignIn = () => {
 
  
     useEffect(() => {
-        const unsubscribe = supabase.auth.onAuthStateChange((event, session) => {
+        supabase.auth.onAuthStateChange((event, session) => {
             if(event === 'SIGNED_IN'){
                 setUser(session.user);
             }
@@ -21,7 +21,7 @@ const SignIn = () => {
     useEffect (() => {
         const convertEmailtoUnique = async () => {
             if (user != null) {
-                const { data, error } = await supabase.from('Emails')
+                const { data } = await supabase.from('Emails')
                 .select('*')
                 .eq('email', user.email); 
                 console.log(data)
@@ -35,7 +35,7 @@ const SignIn = () => {
       useEffect (() => {
         const checkIfUserIsMember = async () => {
           console.log(unique)
-          const { data: emailData , error: emailError } = await supabase.from('Brothers')
+          const { data: emailData } = await supabase.from('Brothers')
             .select('*')
             .eq('userid', unique);
     
@@ -55,12 +55,10 @@ const SignIn = () => {
 
 
     const handleGoogleSignIn = async () => {
-      const { data, error } = await supabase.auth.signInWithOAuth({
+      const { data } = await supabase.auth.signInWithOAuth({
         provider: 'google',
-        options: {
-            redirectTo: 'http://localhost:3000/signin',
-        }
       });
+      console.log(data)
     };
 
     async function handleSignOut() {

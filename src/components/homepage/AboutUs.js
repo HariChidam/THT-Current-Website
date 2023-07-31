@@ -4,9 +4,6 @@ import './style/aboutus.css'
 
 
 class AboutUs extends React.Component {
-  constructor() {
-    super();
-  }
 
   render() {
     return (

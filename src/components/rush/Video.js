@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import ReactPlayer from 'react-player'
 import './style/video.css'
 
 import rush_video1 from '../../images/videos/rush_vid1.mp4'

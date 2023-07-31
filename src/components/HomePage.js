@@ -11,9 +11,7 @@ import Footer from './Footer.js'
 import homepage from '../images/footer/homepage.jpg';
 
 class HomePage extends React.Component {
-  constructor() {
-    super();
-  }
+
 
   render() {
     return (

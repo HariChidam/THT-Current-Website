@@ -23,7 +23,7 @@ export default function Navbar() {
   useEffect (() => {
     const convertEmailtoUnique = async () => {
         if (user != null) {
-            const { data, error } = await supabase.from('Emails')
+            const { data } = await supabase.from('Emails')
             .select('*')
             .eq('email', user.email); 
             console.log(data)
@@ -37,7 +37,7 @@ export default function Navbar() {
   useEffect (() => {
     const checkIfUserIsMember = async () => {
       console.log(unique)
-      const { data: emailData , error: emailError } = await supabase.from('Brothers')
+      const { data: emailData } = await supabase.from('Brothers')
         .select('*')
         .eq('userid', unique);
 
