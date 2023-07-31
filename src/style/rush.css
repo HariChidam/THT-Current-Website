@@ -1,0 +1,155 @@
+
+.rush{
+  display: flex;
+  flex-direction: column;
+  padding-top: 100px;  background-image:
+      url('../images/rush/Background/1.jpg'),
+      url('../images/rush/Background/2.jpg'),
+      url('../images/rush/Background/3.jpg'),
+      url('../images/rush/Background/4.jpg'),
+      url('../images/rush/Background/5.jpg'),
+      url('../images/rush/Background/6.jpg'),
+      url('../images/rush/Background/7.jpg'),
+      url('../images/rush/Background/8.jpg'),
+      url('../images/rush/Background/9.jpg'),
+      url('../images/rush/Background/10.jpg'),
+      url('../images/rush/Background/11.jpg'),
+      url('../images/rush/Background/12.jpg'),
+      url('../images/rush/Background/13.jpg'),
+      url('../images/rush/Background/14.jpg'),
+      url('../images/rush/Background/15.jpg'),
+      url('../images/rush/Background/16.jpg'),
+      url('../images/rush/Background/17.jpg'),
+      url('../images/rush/Background/18.jpg'),
+      url('../images/rush/Background/19.jpg'),
+      url('../images/rush/Background/20.jpg'),
+      url('../images/rush/Background/21.jpg'),
+      url('../images/rush/Background/22.jpg'),
+      url('../images/rush/Background/23.jpg'),
+      url('../images/rush/Background/24.jpg'),
+      url('../images/rush/Background/25.jpg'),
+      url('../images/rush/Background/26.jpg'),
+      url('../images/rush/Background/27.jpg'),
+      url('../images/rush/Background/28.jpg'),
+      url('../images/rush/Background/29.jpg'),
+      url('../images/rush/Background/30.jpg'),
+      url('../images/rush/Background/31.jpg'),
+      url('../images/rush/Background/32.jpg');
+    background-position:
+      0% 0%,
+      0% 12.5%,
+      0% 25%,
+      0% 37.5%,
+      0% 50%,
+      0% 62.5%,
+      0% 75%,
+      0% 87.5%,
+      33.33% 0%,
+      33.33% 12.5%,
+      33.33% 25%,
+      33.33% 37.5%,
+      33.33% 50%,
+      33.33% 62.5%,
+      33.33% 75%,
+      33.33% 87.5%,
+      66.66% 0%,
+      66.66% 12.5%,
+      66.66% 25%,
+      66.66% 37.5%,
+      66.66% 50%,
+      66.66% 62.5%,
+      66.66% 75%,
+      66.66% 87.5%,
+      99.99% 0%,
+      99.99% 12.5%,
+      99.99% 25%,
+      99.99% 37.5%,
+      99.99% 50%,
+      99.99% 62.5%,
+      99.99% 75%,
+      99.99% 87.5%;
+    background-repeat: no-repeat;
+    background-size: 25% 12.5%;
+}
+
+.rush-header{
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.rush-title{
+  font-size:100px;
+  color: white;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.interest{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.interest-links{
+    text-decoration: none;
+    color: #883a3a;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.interest-links:hover{
+    color: black;
+    opacity: .8;
+}
+
+.interest-info{
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+}
+
+.interest-text{
+  text-align: left;
+  padding-left: 1em;
+}
+
+.interest-links{
+  color: black;
+  background-color:#d7e4cd;
+  font-size: 30px;
+  border-radius: 10px;
+  border-width: 5px;
+}
+
+.rush-schedule {
+  height: auto;
+  width: 60%;
+  padding-bottom: 2em;
+}
+
+.rush-image{
+  height: 100%;
+  width: 100%;
+}
+
+.questions{
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+
+.accordion{
+  --bs-accordion-btn-bg: #883a3a;
+  --bs-accordion-bg: #f1dbb6;
+  --bs-accordion-btn-color: white;
+  --bs-accordion-btn-focus-border-color: black;
+  --bs-accordion-active-color: black;
+  --bs-accordion-active-bg: #f1dbb6;
+  --bs-accordion-btn-focus-box-shadow:black;
+  --bs-accordion-btn-active-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e")
+}

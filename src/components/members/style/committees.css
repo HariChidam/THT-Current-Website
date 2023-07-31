@@ -1,0 +1,63 @@
+.com-icons {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.com-icons .Com-item {
+    margin-bottom: 20px;
+}
+
+.Committees{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2em;
+    background-color: white;
+    padding-bottom: 5%;
+}
+
+.Com-Header{
+  color: black;
+  font-size: 40px;
+  padding-bottom: 10px;
+}
+
+.subheader-2{
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-bottom: 20px;
+}
+
+.Com-blurb{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    padding-right: 10%;
+    padding-left: 10%;
+    color: black;
+}
+
+@media (max-width: 415px) {
+    .Com-blurb{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        text-align: center;
+        padding-right: 10%;
+        padding-left: 10%;
+        color: black;
+    }
+
+    .Com-Header{
+        color: black;
+        font-size: 25px;
+        padding-bottom: 10px;
+      }
+} 

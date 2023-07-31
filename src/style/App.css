@@ -1,0 +1,18 @@
+.red {
+  color: #883a3a;
+}
+.gold {
+  color: #f1dbb6;
+}
+
+html {
+    background-color: #white;
+    overflow-x: hidden;
+}
+.content-wrapper{
+  font-family: Verdana;
+}
+
+body {
+    background-color: white;
+}
