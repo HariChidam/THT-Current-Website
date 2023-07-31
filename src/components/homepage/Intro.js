@@ -14,7 +14,7 @@ class Intro extends React.Component {
   render() {
     return (
       <div className = "intro">
-        <p> More than a fraternity, we are a family
+        <p> More than a fraternity, we are a family!
         <span className = "red" >
           {/* <Typed
             strings =  {this.state.strings}
