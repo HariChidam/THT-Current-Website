@@ -21,7 +21,7 @@ class Footer extends React.Component {
         <div className = "footer-container">
           <div className="container-fluid p-0">
           <div className="hover hover-3 text-white rounded">
-            <img className="img-fluid of" src={this.props.image} alt='image'/>
+            <img className="img-fluid of" src={this.props.image} alt='rushBackground'/>
             <div className="hover-overlay"></div>
             
               {(this.props.page === 'homepage') ? (
