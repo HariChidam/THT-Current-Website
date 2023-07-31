@@ -1,5 +1,5 @@
 import React from 'react';
-import Typed from 'react-typed';
+// import Typed from 'react-typed';
 import "./style/intro.css"
 
 
@@ -14,14 +14,14 @@ class Intro extends React.Component {
   render() {
     return (
       <div className = "intro">
-        <p> More than a fraternity, we are a&nbsp;
+        <p> More than a fraternity, we are a family
         <span className = "red" >
-          <Typed
+          {/* <Typed
             strings =  {this.state.strings}
             typeSpeed = {70}
             backSpeed = {70}
           >
-          </Typed>
+          </Typed> */}
         </span>
         </p>
       </div>
